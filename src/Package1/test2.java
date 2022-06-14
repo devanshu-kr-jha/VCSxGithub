@@ -9,6 +9,7 @@ public class test2 {
         System.out.println(Arrays.toString(arr));
 
     }
+    //inplace merge sorting algorithm
     static void mergesort(int[] arr, int s, int e){
         if ((e-s)==1){
             return;
